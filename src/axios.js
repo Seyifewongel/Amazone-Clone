@@ -2,7 +2,7 @@ import axios from "axios";
 
 const instance = axios.create({
   // THE API (cloud function) URL
-  baseURL: "http://127.0.0.1:5001/clone-project-796c1/us-central1/api",
+  baseURL: "http://127.0.0.1:10000",
 });
 
 export default instance;
